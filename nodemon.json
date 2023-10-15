@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon.json",
+  "exec": "tsc && node lib/src/index.js",
+  "ignore": ["lib/**/*"],
+  "signal": "SIGTERM",
+  "watch": ["src/**/*"]
+}
